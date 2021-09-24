@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="libs/icons/css/all.css">
+        <link rel="shortcut icon" href="img/log.png" type="img">
+        <title>Locadora Martins</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-menu-color fixed-top">
+            <a class="navbar-brand brand"><img class="img-fluid2" alt="Imagem responsiva" src="img/Logo.png"></a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-body link-menu" href="#"><i class="fas fa-home mr-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-body link-menu" href="sinopse"><i class="fas fa-film mr-1"></i>Informações</a>
+                    </li>
+                    <div class="dropdown">
+                        <a class="btn btn-transparent text-body link-menu dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Formulários
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="clientes">Cadastro de Clientes</a>
+                          <a class="dropdown-item" href="vendedores">Cadastro de Vendedores</a>
+                          <a class="dropdown-item" href="veiculos">Cadastro de Veículos</a>
+                        </div>
+                      </div>
+                </ul>
+            </div>
+        </nav>
+    
+        <!-- Carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <center><div class="carousel-inner">
+              <div class="carousel-item active mt-5">
+                <img class="d-block img-fluid margin " src="img/Carro1.png" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item mt-5">
+                <img class="d-block img-fluid margin" src="img/Carro2.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item mt-5">
+                <img class="d-block img-fluid margin " src="img/Carro3.png" alt="Terceiro Slide">
+              </div>
+              <div class="carousel-item mt-5">
+                <img class="d-block img-fluid margin " src="img/Carro4.png" alt="Quarto Slide">
+              </div>
+            </div>
+            </center>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+        </div><br><br><br>
+
+        <div class="content-fluid">
+                <div class="titulo-divisao">
+                    <h1>Principais Veículos</h1>
+                </div>
+
+                <div class="row mt-2 p-5">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="cardes">
+                            <div class="circle"></div>
+                            <div class="content">
+                                <h2>BMW i8</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat blanditiis minus commodi provident cumque nisi, repudiandae reprehenderit odio porro nihil, perferendis molestiae eos officiis vero cum. Culpa, ab eveniet.</p>
+                            </div>
+                            <img class="img-fluid" src="img/BMWi8.png">
+                        </div>
+                    </div>
+                
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="cardes">
+                            <div class="circle"></div>
+                                <div class="content">
+                                    <h2>Camaro</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit odit perspiciatis quidem quod tempora sint nisi doloribus dicta aspernatur totam voluptas nesciunt culpa, minima assumenda. Libero voluptatum cupiditate odit laudantium?</p>
+                                </div>
+                            <img class="img-fluid" src="img/Camaro.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-2 p-5">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="cardes">
+                            <div class="circle"></div>
+                            <div class="content">
+                                <h2>McLaren</h2>
+                                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque aperiam a corrupti alias voluptate doloremque. Voluptate quae minus facere ullam, eveniet sint ad. Voluptates quasi est magni expedita omnis dolore.</p>
+                            </div>
+                            <img class="img-fluid" src="img/McLaren.png">
+                        </div>
+                    </div>
+                
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="cardes">
+                            <div class="circle"></div>
+                                <div class="content">
+                                    <h2>GTR</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim error consequatur illo quae ipsam amet excepturi nihil iste sequi, blanditiis recusandae autem, explicabo laborum a quia quasi deserunt labore obcaecati.</p>
+                                </div>
+                            <img class="img-fluid" src="img/GTR.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--- Janela Modal -->
+        <div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content p-2 shadow-lg p-3 mb-5 bg-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Título da nossa modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true" class="color-button">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias commodi eligendi accusantium? Alias necessitatibus dolorum omnis, hic dolores odio dolorem rem vel veritatis laborum nihil ipsum. Consectetur, modi! Rem, numquam!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/load-page.js"></script>
+        <script src="js/carousel.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
